@@ -1,0 +1,24 @@
+{
+  "name": "bitimulate-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jason",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "global": "^4.4.0",
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start:dev": "nodemon --watch src/ src/index.js",
+    "crawler:dev": "nodemon --watch src/crawler/ src/crawler/index.js"
+  }
+}
