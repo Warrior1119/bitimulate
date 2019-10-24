@@ -10,7 +10,8 @@
     "dotenv": "^8.2.0",
     "global": "^4.4.0",
     "koa": "^2.10.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.7.6"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
